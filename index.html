@@ -9,13 +9,13 @@
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600&display=swap');
   body { font-family: 'Inter', sans-serif; }
   h1, h2, h3 { font-family: 'Playfair Display', serif; }
-  .hero-bg { background: linear-gradient(135deg, #1a3a1a 0%, #2d5a27 40%, #4a7c3f 100%); }
+  .hero-bg { background: linear-gradient(160deg, #1a6fa8 0%, #2e9cd4 45%, #87ceeb 100%); }
   .gold { color: #c9a227; }
-  .tag { display: inline-block; background: rgba(201,162,39,0.15); color: #c9a227; border: 1px solid #c9a227; padding: 4px 12px; border-radius: 9999px; font-size: 12px; margin: 3px; }
+  .tag { display: inline-block; background: rgba(255,255,255,0.2); color: #fff; border: 1px solid rgba(255,255,255,0.6); padding: 4px 12px; border-radius: 9999px; font-size: 12px; margin: 3px; font-weight: 500; }
   .card { background: white; border-radius: 12px; box-shadow: 0 2px 16px rgba(0,0,0,0.08); padding: 24px; }
   .stat-box { text-align: center; padding: 20px; }
-  .stat-box .num { font-size: 2rem; font-weight: 700; color: #2d5a27; }
-  .stat-box .lbl { font-size: 0.8rem; color: #666; text-transform: uppercase; letter-spacing: 1px; }
+  .stat-box .num { font-size: 2rem; font-weight: 700; }
+  .stat-box .lbl { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; }
   .img-thumb { width: 80px; height: 60px; object-fit: cover; border-radius: 6px; cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s; }
   .img-thumb.active { border-color: #c9a227; }
   .permit-item::before { content: "✅ "; }
@@ -25,9 +25,9 @@
 
 <!-- HERO -->
 <section class="hero-bg text-white py-20 px-6 text-center">
-  <div style="font-size:11px; letter-spacing:3px; color:#c9a227; text-transform:uppercase; margin-bottom:12px;">301 MHC LLC Presents</div>
-  <h1 style="font-size:3.5rem; margin-bottom:8px; color:white;">🌳 Ole Oak Village</h1>
-  <p style="font-size:1.2rem; color:#a8c99a; margin-bottom:24px;">Belleview, Florida — Marion County</p>
+  <div style="font-size:11px; letter-spacing:3px; color:#fff; text-transform:uppercase; margin-bottom:12px; opacity:0.85;">301 MHC LLC Presents</div>
+  <h1 style="font-size:3.5rem; margin-bottom:8px; color:white; text-shadow: 0 2px 8px rgba(0,0,0,0.25);">🌳 Ole Oak Village</h1>
+  <p style="font-size:1.2rem; color:#e8f6ff; margin-bottom:24px; text-shadow: 0 1px 4px rgba(0,0,0,0.2);">Belleview, Florida — Marion County</p>
   <div>
     <span class="tag">31 Lots</span>
     <span class="tag">Shovel Ready</span>
@@ -35,62 +35,62 @@
     <span class="tag">Public Utilities</span>
     <span class="tag">~65% NOI</span>
   </div>
-  <p style="margin-top:20px; font-size:0.9rem; color:#8ab07a;">📍 11987 S US Hwy 301, Belleview, FL &nbsp;|&nbsp; Minutes from The Villages</p>
+  <p style="margin-top:20px; font-size:0.9rem; color:#e0f2ff; text-shadow: 0 1px 3px rgba(0,0,0,0.2);">📍 11987 S US Hwy 301, Belleview, FL &nbsp;|&nbsp; Minutes from The Villages</p>
 </section>
 
 <!-- STATS BAR -->
-<section style="background:#2d5a27; color:white;">
+<section style="background:#1a6fa8; color:white;">
   <div style="display:grid; grid-template-columns: repeat(4, 1fr); max-width:800px; margin:0 auto;">
-    <div class="stat-box" style="color:white;"><div class="num" style="color:#c9a227;">31</div><div class="lbl" style="color:#a8c99a;">Lots</div></div>
-    <div class="stat-box" style="color:white;"><div class="num" style="color:#c9a227;">5.77</div><div class="lbl" style="color:#a8c99a;">Acres</div></div>
-    <div class="stat-box" style="color:white;"><div class="num" style="color:#c9a227;">~65%</div><div class="lbl" style="color:#a8c99a;">NOI</div></div>
-    <div class="stat-box" style="color:white;"><div class="num" style="color:#c9a227;">$3M+</div><div class="lbl" style="color:#a8c99a;">Est. Value</div></div>
+    <div class="stat-box"><div class="num" style="color:#f0d060;">31</div><div class="lbl" style="color:#cce8ff;">Lots</div></div>
+    <div class="stat-box"><div class="num" style="color:#f0d060;">5.77</div><div class="lbl" style="color:#cce8ff;">Acres</div></div>
+    <div class="stat-box"><div class="num" style="color:#f0d060;">~65%</div><div class="lbl" style="color:#cce8ff;">NOI</div></div>
+    <div class="stat-box"><div class="num" style="color:#f0d060;">$3M+</div><div class="lbl" style="color:#cce8ff;">Est. Value</div></div>
   </div>
 </section>
 
 <!-- PHOTO GALLERY -->
 <section style="max-width:900px; margin:40px auto; padding:0 20px;">
-  <h2 style="text-align:center; color:#2d5a27; font-size:2rem; margin-bottom:24px;">Property Gallery</h2>
+  <h2 style="text-align:center; color:#1a6fa8; font-size:2rem; margin-bottom:24px;">Property Gallery</h2>
   <div style="border-radius:16px; overflow:hidden; box-shadow:0 4px 24px rgba(0,0,0,0.12);">
-    <img id="mainPhoto" src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/3bd0e0ffe_View06R2.png" 
-         style="width:100%; height:420px; object-fit:cover; display:block;">
+    <img id="mainPhoto" src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/a7539bca7_BelleviewLand.png" 
+         style="width:100%; height:420px; object-fit:contain; background:#f5f5f5; display:block;">
   </div>
-  <p id="mainCaption" style="text-align:center; color:#666; margin:12px 0; font-style:italic;">Aerial View — Ole Oak Village</p>
+  <p id="mainCaption" style="text-align:center; color:#666; margin:12px 0; font-style:italic;">Site Plan — All 31 Lots, Belleview, FL</p>
   <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:8px;">
-    <img class="img-thumb active" onclick="setPhoto(this, 'https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/3bd0e0ffe_View06R2.png','Aerial View — Ole Oak Village')" src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/3bd0e0ffe_View06R2.png">
+    <img class="img-thumb" onclick="setPhoto(this, 'https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/3bd0e0ffe_View06R2.png','Aerial View — Ole Oak Village')" src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/3bd0e0ffe_View06R2.png">
     <img class="img-thumb" onclick="setPhoto(this, 'https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/9af49b64d_Cam_12.jpg','Community Entrance Gate')" src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/9af49b64d_Cam_12.jpg">
     <img class="img-thumb" onclick="setPhoto(this, 'https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/2e5c31bb0_Cam_1_PNG.png','Home Exterior — Blue Model')" src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/2e5c31bb0_Cam_1_PNG.png">
     <img class="img-thumb" onclick="setPhoto(this, 'https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/c2ed636d3_Cam_21.jpg','Home Exterior — Tan Model')" src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/c2ed636d3_Cam_21.jpg">
     <img class="img-thumb" onclick="setPhoto(this, 'https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/65a973ca9_Cam_3_PNG.png','Street View — Community Homes')" src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/65a973ca9_Cam_3_PNG.png">
     <img class="img-thumb" onclick="setPhoto(this, 'https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/5786c1e7e_Cam_4_PNG.png','Clubhouse & Pickleball Court')" src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/5786c1e7e_Cam_4_PNG.png">
-    <img class="img-thumb" onclick="setPhoto(this, 'https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/a7539bca7_BelleviewLand.png','Site Plan — Belleview, FL')" src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/a7539bca7_BelleviewLand.png">
+    <img class="img-thumb active" onclick="setPhoto(this, 'https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/a7539bca7_BelleviewLand.png','Site Plan — All 31 Lots, Belleview, FL')" src="https://media.base44.com/images/public/69f428b2367eda2bfee1b69a/a7539bca7_BelleviewLand.png">
   </div>
 </section>
 
 <!-- HIGHLIGHTS -->
 <section style="max-width:900px; margin:40px auto; padding:0 20px;">
-  <h2 style="text-align:center; color:#2d5a27; font-size:2rem; margin-bottom:24px;">Investment Highlights</h2>
+  <h2 style="text-align:center; color:#1a6fa8; font-size:2rem; margin-bottom:24px;">Investment Highlights</h2>
   <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:16px;">
-    <div class="card"><div style="font-size:2rem;">🏗️</div><h3 style="color:#2d5a27; font-size:1.1rem; margin:8px 0;">Shovel Ready</h3><p style="color:#555; font-size:0.9rem;">Fully permitted & approved. Marion County Site Construction Permit issued Oct 2025.</p></div>
-    <div class="card"><div style="font-size:2rem;">🏠</div><h3 style="color:#2d5a27; font-size:1.1rem; margin:8px 0;">31 Double-Wide Lots</h3><p style="color:#555; font-size:0.9rem;">5.77 acres zoned P-MH. Private roads newly constructed and ready.</p></div>
-    <div class="card"><div style="font-size:2rem;">💧</div><h3 style="color:#2d5a27; font-size:1.1rem; margin:8px 0;">Public Utilities</h3><p style="color:#555; font-size:0.9rem;">City of Belleview water & sewer with lift station. No septic risk.</p></div>
-    <div class="card"><div style="font-size:2rem;">📍</div><h3 style="color:#2d5a27; font-size:1.1rem; margin:8px 0;">Prime Location</h3><p style="color:#555; font-size:0.9rem;">On US-301, minutes from The Villages — one of America's fastest-growing 55+ markets.</p></div>
-    <div class="card"><div style="font-size:2rem;">💰</div><h3 style="color:#2d5a27; font-size:1.1rem; margin:8px 0;">Strong NOI ~65%</h3><p style="color:#555; font-size:0.9rem;">Land lease model — sell the homes, keep the land, collect lot rent forever.</p></div>
-    <div class="card"><div style="font-size:2rem;">📈</div><h3 style="color:#2d5a27; font-size:1.1rem; margin:8px 0;">$3M+ Valuation</h3><p style="color:#555; font-size:0.9rem;">Generational wealth asset with growing value and multiple exit strategies.</p></div>
+    <div class="card"><div style="font-size:2rem;">🏗️</div><h3 style="color:#1a6fa8; font-size:1.1rem; margin:8px 0;">Shovel Ready</h3><p style="color:#555; font-size:0.9rem;">Fully permitted & approved. Marion County Site Construction Permit issued Oct 2025.</p></div>
+    <div class="card"><div style="font-size:2rem;">🏠</div><h3 style="color:#1a6fa8; font-size:1.1rem; margin:8px 0;">31 Double-Wide Lots</h3><p style="color:#555; font-size:0.9rem;">5.77 acres zoned P-MH. Private roads newly constructed and ready.</p></div>
+    <div class="card"><div style="font-size:2rem;">💧</div><h3 style="color:#1a6fa8; font-size:1.1rem; margin:8px 0;">Public Utilities</h3><p style="color:#555; font-size:0.9rem;">City of Belleview water & sewer with lift station. No septic risk.</p></div>
+    <div class="card"><div style="font-size:2rem;">📍</div><h3 style="color:#1a6fa8; font-size:1.1rem; margin:8px 0;">Prime Location</h3><p style="color:#555; font-size:0.9rem;">On US-301, minutes from The Villages — one of America's fastest-growing 55+ markets.</p></div>
+    <div class="card"><div style="font-size:2rem;">💰</div><h3 style="color:#1a6fa8; font-size:1.1rem; margin:8px 0;">Strong NOI ~65%</h3><p style="color:#555; font-size:0.9rem;">Land lease model — sell the homes, keep the land, collect lot rent forever.</p></div>
+    <div class="card"><div style="font-size:2rem;">📈</div><h3 style="color:#1a6fa8; font-size:1.1rem; margin:8px 0;">$3M+ Valuation</h3><p style="color:#555; font-size:0.9rem;">Generational wealth asset with growing value and multiple exit strategies.</p></div>
   </div>
 </section>
 
 <!-- PERMITS -->
-<section style="background:#f0f7ee; padding:40px 20px;">
+<section style="background:#e8f4fd; padding:40px 20px;">
   <div style="max-width:700px; margin:0 auto;">
-    <h2 style="text-align:center; color:#2d5a27; font-size:2rem; margin-bottom:24px;">Entitlement Status</h2>
+    <h2 style="text-align:center; color:#1a6fa8; font-size:2rem; margin-bottom:24px;">Entitlement Status</h2>
     <div class="card">
       <ul style="list-style:none; padding:0; margin:0;">
         <li class="permit-item" style="padding:10px 0; border-bottom:1px solid #eee; color:#333;">Marion County Site Construction Permit (AR #31223, issued 10/16/2025)</li>
         <li class="permit-item" style="padding:10px 0; border-bottom:1px solid #eee; color:#333;">FDOT Driveway Permit (#2024-A-595-00028)</li>
         <li class="permit-item" style="padding:10px 0; border-bottom:1px solid #eee; color:#333;">City of Belleview Developer Agreement</li>
         <li class="permit-item" style="padding:10px 0; border-bottom:1px solid #eee; color:#333;">City Annexation Agreement (executed)</li>
-        <li class="permit-item" style="padding:10px 0; color:#333;">Utility approvals: water, sewer & lift station</li>
+        <li class="permit-item" style="padding:10px 0; color:#333;">Utility approvals: water, sewer & lift station</p></li>
       </ul>
     </div>
   </div>
@@ -98,7 +98,7 @@
 
 <!-- CONTACT -->
 <section style="max-width:700px; margin:40px auto; padding:0 20px 60px;">
-  <h2 style="text-align:center; color:#2d5a27; font-size:2rem; margin-bottom:8px;">Request Information</h2>
+  <h2 style="text-align:center; color:#1a6fa8; font-size:2rem; margin-bottom:8px;">Request Information</h2>
   <p style="text-align:center; color:#666; margin-bottom:24px;">Serious developers and investors only.</p>
   <div class="card">
     <div style="display:grid; gap:12px;">
@@ -106,7 +106,7 @@
       <input placeholder="Email Address" style="padding:12px; border:1px solid #ddd; border-radius:8px; font-size:1rem; width:100%; box-sizing:border-box;">
       <input placeholder="Phone Number" style="padding:12px; border:1px solid #ddd; border-radius:8px; font-size:1rem; width:100%; box-sizing:border-box;">
       <textarea placeholder="Tell us about your interest..." rows="4" style="padding:12px; border:1px solid #ddd; border-radius:8px; font-size:1rem; width:100%; box-sizing:border-box; resize:vertical;"></textarea>
-      <button style="background:#2d5a27; color:white; padding:14px; border:none; border-radius:8px; font-size:1rem; cursor:pointer; font-weight:600;">Send Inquiry</button>
+      <button style="background:#1a6fa8; color:white; padding:14px; border:none; border-radius:8px; font-size:1rem; cursor:pointer; font-weight:600;">Send Inquiry</button>
     </div>
     <div style="text-align:center; margin-top:20px; padding-top:20px; border-top:1px solid #eee;">
       <p style="color:#555; margin:0 0 12px;">Or reach us directly:</p>
@@ -117,7 +117,7 @@
 </section>
 
 <!-- FOOTER -->
-<footer style="background:#1a3a1a; color:#8ab07a; text-align:center; padding:20px;">
+<footer style="background:#1a6fa8; color:#cce8ff; text-align:center; padding:20px;">
   <p style="margin:0; font-size:0.85rem;">© 2025 301 MHC LLC · Triple P Ventures LLC · All Rights Reserved</p>
 </footer>
 
